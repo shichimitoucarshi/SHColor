@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "SHColor"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "Convert hexadecimal to UIColor"
   s.description  = <<-DESC
                     Convert hexadecimal to UIColor
@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/keisukeYamagishi/SHColor.git", :tag => "#{s.version}" }
   s.ios.deployment_target = '8.0'
 
-  s.source_files  = "Source", "Source/*.swift"
+  s.source_files  = "Source", "Pods/SHColor/Source/*.swift"
 end

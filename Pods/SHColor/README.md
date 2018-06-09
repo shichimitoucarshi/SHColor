@@ -33,7 +33,7 @@ If you do not have the google map SDK for iOS
 
 ```
 target 'MyApp' do
-  pod 'SHColor'
+  pod 'SHColor', '~> 1.0'
 end
 ```
 Then, run the following command:
