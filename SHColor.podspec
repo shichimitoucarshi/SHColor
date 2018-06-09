@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "SHColor"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Convert hexadecimal to UIColor"
   s.description  = <<-DESC
                     Convert hexadecimal to UIColor
