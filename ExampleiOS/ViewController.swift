@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    public var ColorPattern = ["#5AC8FA",
+    public var ColorPattern = ["😏😏😏😏😏😏",
                                "#FFCC00",
                                "#FF9500",
                                "#FF2D55",
