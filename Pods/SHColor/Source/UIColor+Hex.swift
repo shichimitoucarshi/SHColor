@@ -10,7 +10,7 @@ import UIKit
 
 extension UIColor {
     
-    public convenience init(hex: String, alpha: CGFloat = 0.0) {
+    public convenience init(hex: String, alpha: CGFloat = 1.0) {
         
         var h = hex
         if h.hasPrefix("#") {
@@ -45,7 +45,7 @@ extension UIColor {
         let gv = CGFloat((Int(g, radix: 16) ?? 0)) / 255.0
         let bv = CGFloat((Int(b, radix: 16) ?? 0)) / 255.0
         
-        self.init(red: rv, green: gv, blue: bv, alpha: 1.0)
+        self.init(red: rv, green: gv, blue: bv, alpha: alpha)
     }
     
 }

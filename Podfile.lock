@@ -1,5 +1,5 @@
 PODS:
-  - SHColor (1.0.1)
+  - SHColor (1.0.2)
 
 DEPENDENCIES:
   - SHColor
@@ -9,7 +9,7 @@ SPEC REPOS:
     - SHColor
 
 SPEC CHECKSUMS:
-  SHColor: ce4ba779e9840b806b33e301256ebdacd7152bf4
+  SHColor: f02addabb1a5b29c341dad1ac9ba5ae1a2d36274
 
 PODFILE CHECKSUM: 46a0d7687d61fd5971c7ae87dbb0305cff902c20
 
