@@ -1,7 +1,7 @@
 # SHColor
 
-[![](https://img.shields.io/badge/Twitter-O--Liker%20Error-blue.svg)](https://twitter.com/O_Linker_Error)
-[![](https://img.shields.io/badge/lang-swift4.0-ff69b4.svg)](https://developer.apple.com/jp/swift/)
+[![](https://img.shields.io/badge/twitter-brew__0__O-brightgreen.svg)](https://twitter.com/O_Linker_Error)
+[![](https://img.shields.io/badge/Swift-ver%3A5.0-fc3158.svg)](https://developer.apple.com/jp/swift/)
 [![](https://img.shields.io/badge/licence-MIT-green.svg)](https://github.com/keisukeYamagishi/HttpRequest/blob/master/LICENSE)
 
 ### Overview
