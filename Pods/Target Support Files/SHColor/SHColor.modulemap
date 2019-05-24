@@ -1,6 +1,0 @@
-framework module SHColor {
-  umbrella header "SHColor-umbrella.h"
-
-  export *
-  module * { export * }
-}
