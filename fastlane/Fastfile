@@ -35,4 +35,9 @@ platform :ios do
       platform: "all"
     )
   end
+
+  desc "Deploy to cocoapods"
+  lane :deploy_pod do
+    pod_push
+  end
 end
