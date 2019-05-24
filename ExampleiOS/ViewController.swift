@@ -53,8 +53,6 @@ extension ViewController: UITableViewDataSource {
         cell.textLabel?.text = ColorPattern[indexPath.row]
         
         return cell
-        
     }
-    
 }
 
