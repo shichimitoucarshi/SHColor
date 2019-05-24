@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name         = "SHColor"
-  s.version      = "1.0.4"
-  s.summary      = "Convert hexadecimal to UIColor"
+  s.version      = "1.0.5"
+  s.summary      = "hexadecimal to UIColor"
   s.description  = <<-DESC
                     Convert hexadecimal to UIColor
                    DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "keisuke" => "jam330157@gmail.com" }
   s.source       = { :git => "https://github.com/keisukeYamagishi/SHColor.git", :tag => "#{s.version}" }
-  s.ios.deployment_target = '8.0'
-
-  s.source_files  = "Source", "Pods/SHColor/Source/*.swift"
+  s.ios.deployment_target = '11.0'
+  s.swift_version = '5.0'
+  s.source_files  = "Source", "SHColor/*.swift"
 end
