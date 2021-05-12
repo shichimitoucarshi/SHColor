@@ -12,7 +12,7 @@ Install _fastlane_ using
 ```
 [sudo] gem install fastlane -NV
 ```
-or alternatively using `brew cask install fastlane`
+or alternatively using `brew install fastlane`
 
 # Available Actions
 ## iOS
@@ -26,6 +26,11 @@ Test pod lint and Build carthage
 fastlane ios carthage_build
 ```
 Carthage Build
+### ios deploy_pod
+```
+fastlane ios deploy_pod
+```
+Deploy to cocoapods
 
 ----
 
